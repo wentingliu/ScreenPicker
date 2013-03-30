@@ -11,6 +11,13 @@
 
 @implementation ScreenPickerWindow
 
+- (void)dealloc {
+    if (imageRef) {
+        CGImageRelease(imageRef);
+        imageRef = NULL;
+    }
+}
+
 - (id)initWithContentRect:(NSRect)contentRect
                 styleMask:(NSUInteger)windowStyle
                   backing:(NSBackingStoreType)bufferingType
