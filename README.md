@@ -6,4 +6,4 @@ Mimics the magnifying glass in color panel of Mac OS X.
 
 ## Copyright / License
 
-Do What the Fuck You Want to.
+WTFPL
